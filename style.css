@@ -1,0 +1,160 @@
+* {
+    font-family: 'DejaVu Serif', serif;
+    font-size: 11.4px;
+}
+
+table { 
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    border: solid 2px black;
+    table-layout: fixed;
+    margin-bottom: 2px;
+}
+table td {
+    border: solid 1px black;
+    padding: 0 5px;    
+}
+
+.header td {
+    height: 40px;
+    text-align: center;
+    border-bottom: solid 2px black;
+    padding: 5px 5px;
+}
+.header td:first-of-type {
+    border-right: solid 2px black;
+    font-size: 14px;
+}
+.header.small td {
+    height: 30px;
+    padding: 5px 5px;
+}
+.number {
+    width: 4%;
+    text-align: center;
+    border-right: solid 2px black;
+}
+.name {
+    width: 15%;
+    border-right: solid 2px black;
+}
+.name-full {
+    width: 25%;
+    border-right: solid 2px black;
+}
+.age {
+    width: 4%;
+    text-align: center;
+    border-right: solid 2px black;
+}
+
+.page {
+    page-break-after: always;
+}
+
+.group {
+    width: 6%;
+    border-right: solid 2px black;
+}
+.group span {
+    display: block;
+    transform: rotate(-90deg);
+    font-size: 18px;
+    text-align: center;
+}
+.date {
+    font-size: 12px;
+}
+.day {
+    line-height: 15px;
+}
+.first td {
+    border-top: solid 2px black;
+}
+
+.circular-cell {
+    display: block;
+    height: 25px; width: 750px;
+    text-align: right;
+    position: absolute;
+    bottom: 500px;
+    left: -25px;
+}
+
+.circular-mark {
+    display: inline-block;
+    height: 25px; width: 15px;
+    text-align: left;
+    border: solid 1px black;
+    margin: 0 9px 0 -11px;
+}
+
+.circular-border {
+    display: inline-block;
+    height: 25px; width: 150px;
+    text-align: left;
+    border: solid 1px black;
+    transform: rotate(180deg);
+    padding-left: 10px;
+}
+
+.zdravotni {
+    vertical-align: top;
+    height: 93px;
+}
+
+.zdravotni.small {
+    vertical-align: top;
+    height: 40px;
+}
+
+.pagenum {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.panacek {
+    width: 330px;
+    height: 450px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    /*background-image: url('https://azduha.cz/tabor2022/generator/panacek.png');*/
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    /*border: solid 1px black;*/
+}
+
+.panacek-jmeno {
+    position: absolute;
+    top: 315px;
+    left: -75px;
+    right: 0;
+    transform: rotate(90deg);
+    font-size: 1.3em;
+}
+
+.panacek-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.flipped {
+    transform: rotate(180deg);
+    margin: -280px 175px -100px 175px;
+}
+
+.clear-pagetop {
+    height: 50px;
+}
